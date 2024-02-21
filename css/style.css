@@ -3,3 +3,13 @@
   width: 1000px;
   margin: 0 auto;
 }
+
+.biglietto{
+  border: 1px solid black;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.debug{
+  border: 1px solid black;
+}
