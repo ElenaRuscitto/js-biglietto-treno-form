@@ -1,15 +1,44 @@
 .question{
-  border: 1px solid black;
+  border: 1px solid white;
   width: 1000px;
   margin: 0 auto;
+  background-color: white;
+  color: rgb(185, 20, 80);
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .biglietto{
-  border: 1px solid black;
   width: 1000px;
   margin: 0 auto;
+  background-color: white;
+  height: 210px;
+  color: black;
 }
 
-.debug{
-  border: 1px solid black;
+
+body {
+  background-color: rgb(185, 20, 80);
+  color: white;
+}
+
+.btn {
+  color: rgb(185, 20, 80);
+  background-color: rgb(204, 204, 204);
+  font-weight: bold;
+}
+
+.dettagliNome {
+  background-color: rgb(128, 128, 128);
+  margin: 0 auto;
+  height: 100px;
+}
+
+.dettagli {
+  height: 80px;
+}
+
+.col-9 {
+  border-top: 1px solid rgb(128, 128, 128);
+  border-bottom: 1px solid rgb(128, 128, 128);
 }
