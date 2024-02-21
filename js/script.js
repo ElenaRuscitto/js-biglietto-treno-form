@@ -22,4 +22,12 @@ btn1.addEventListener('click',function(){
    }
 });
 
-console.log(price);
+btn2.addEventListener('click',function(){
+  // resetto il value dell'input
+  utenteEta.value = '';
+  kmPercorrere.value = '';
+  nameSurname.value = '';
+})
+
+document.getElementById ('.nameSurname').innerHTML += nameSurname;
+document.getElementById ('.price').innerHTML += prezzoBiglietto.toFixed(2);
