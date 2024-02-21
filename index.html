@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcolo del prezzo del biglietto del treno</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1 class="text-center my-3 fw-bold ">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+  <div class="container">
+    <div class="question my-5 ">
+      <div class="question-top d-flex justify-content-evenly text-center py-4">
+
+        <div class="nome-cognome  ">
+          <label class="form-label ">Nome e Cognome</label>
+          <input type="text" class="form-control w-auto mt-2 " placeholder="Scrivi il tuo nome">
+        </div>
+  
+        <div class="km">
+          <label class="form-label ">Km da percorrere</label>
+          <input type="text" class="form-control w-auto mt-2" placeholder="Scrivi i Km da percorrere">
+        </div>
+  
+        <div class="eta">
+          <label class="form-label ">fascia d'età</label>
+          <select class="form-select select-colore w-auto mt-2" >
+            <option value="verde">Standard</option>
+            <option value="rosso">Under 18</option>
+            <option value="blu">Over 65</option>
+          </select>
+        </div>
+  
+      </div>
+  
+      <div class="question-buttom text-center mb-4 pt-4 ">
+  
+        <button type="button" class="btn btn-secondary mx-3">Genera</button>
+        <button type="button" class="btn btn-secondary">Annulla</button>
+  
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
