@@ -28,14 +28,14 @@ btn1.addEventListener('click',function(){
     tipoBiglietto = 'Sconto Senior'
    }
    //genero elementi random Carrozza e CP
-   const numCazzozza = Math.ceil(Math.random() * 12); //non funziona
-   const codiceCp = Math.floor(Math.random() * (100000 - 900000)) + 900000; //non funziona
+   const numCazzozza = Math.ceil(Math.random() * 12); 
+   const codiceCp = Math.floor(Math.random() * (100000 - 900000)) + 900000; 
 
    document.getElementById ('outputNameSurname').innerHTML = nameSurname.value;
    document.getElementById ('outputUtenteEta').innerHTML = tipoBiglietto;
    document.getElementById ('price').innerHTML = price.toFixed(2);
-   document.getElementById ('outNumCazzozza').innerHTML = numCazzozza; //non funziona
-   document.getElementById ('outCodiceCp').innerHTML = codiceCp; //non funziona
+   document.getElementById ('outNumCazzozza').innerHTML = numCazzozza; 
+   document.getElementById ('outCodiceCp').innerHTML = codiceCp; 
 
    textTicket.classList.remove('d-none');
    ticket.classList.remove('d-none');
