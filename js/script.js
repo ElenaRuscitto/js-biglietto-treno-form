@@ -33,7 +33,7 @@ btn1.addEventListener('click',function(){
 
    document.getElementById ('outputNameSurname').innerHTML = nameSurname.value;
    document.getElementById ('outputUtenteEta').innerHTML = tipoBiglietto;
-   document.getElementById ('price').innerHTML = price.toFixed(2);
+   document.getElementById ('price').innerHTML = "€"+ price.toFixed(2);
    document.getElementById ('outNumCazzozza').innerHTML = numCazzozza; 
    document.getElementById ('outCodiceCp').innerHTML = codiceCp; 
 
